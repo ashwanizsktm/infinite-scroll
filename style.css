@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+text-align: center;}
+.posts{
+   padding: 13px;
+   margin: 0 auto 15px auto;
+   width: 90vw;
+   height: 20vh;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.post-id{
+  height: 35px;
+  text-align: center;
+  width: 35px;
+  line-height: 35px;
+  background-color: blue;
+  color: #fff;
+}
+
+.post-title{
+margin-bottom: .5rem;
+}
+
+.styled-btn{
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  padding: 10px 19px;
+  cursor: pointer;
+}
+.styled-btn:hover{
+  cursor: pointer;
+}
